@@ -23,7 +23,6 @@ class MoneybookerService {
 					def sessionId=cookie.elements.find{
 						it.name=="SESSION_ID"
 					}
-					println sessionId.value
 					return sessionId.value
 				}
 	}
