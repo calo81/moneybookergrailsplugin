@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="carlo-desktop" id="0" name="MoneybookerServiceITests" package="moneybooker" tests="1" time="1.682" timestamp="2011-02-06T23:37:43">
+      <properties />
+
+      <testcase classname="moneybooker.MoneybookerServiceITests" name="testSendRequestToMoneyBooker" time="1.682" />
+
+      <system-out><![CDATA[--Output from testSendRequestToMoneyBooker--
+65e90346453b61957a2361abb70bfd7e
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSendRequestToMoneyBooker--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="carlo-desktop" id="1" name="MerchantTests" package="moneybooker" tests="1" time="0.013" timestamp="2011-02-06T23:37:36">
+      <properties />
+
+      <testcase classname="moneybooker.MerchantTests" name="testSomething" time="0.0040" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="carlo-desktop" id="2" name="MoneybookerControllerTests" package="moneybooker" tests="3" time="0.6" timestamp="2011-02-06T23:37:36">
+      <properties />
+
+      <testcase classname="moneybooker.MoneybookerControllerTests" name="testStartPayment" time="0.533" />
+
+      <testcase classname="moneybooker.MoneybookerControllerTests" name="testInvalidCommandForLackingField" time="0.052" />
+
+      <testcase classname="moneybooker.MoneybookerControllerTests" name="testCommandToKeyValueMoneybookerPairString" time="0.012" />
+
+      <system-out><![CDATA[--Output from testStartPayment--
+--Output from testInvalidCommandForLackingField--
+--Output from testCommandToKeyValueMoneybookerPairString--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testStartPayment--
+--Output from testInvalidCommandForLackingField--
+--Output from testCommandToKeyValueMoneybookerPairString--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="carlo-desktop" id="3" name="MoneybookerServiceTests" package="moneybooker" tests="1" time="0.624" timestamp="2011-02-06T23:37:35">
+      <properties />
+
+      <testcase classname="moneybooker.MoneybookerServiceTests" name="testMakeRequest" time="0.603" />
+
+      <system-out><![CDATA[--Output from testMakeRequest--
+123123
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testMakeRequest--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
